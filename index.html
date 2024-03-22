@@ -4,6 +4,7 @@
 <head>
     <title>Vigih Dev Io</title>
     <link href="dist/css/bootstrap.css" rel="stylesheet" id="bootstrap-css">
+    <link href="dist/css/components.css" rel="stylesheet" id="components-css">
     <!------ Include the above in your HEAD tag ---------->
 </head>
 
@@ -68,24 +69,25 @@
             </div>
             <div class="divider-border"></div>
             <!-- AIzaSyCjmhO6oRp6r9UrwBUc87-Ix7-t00eGRaE -->
+            <div class="google-maps">
+
+            </div>
             <div class="maps-dev">
-                <iframe width="100%" height="450" style="border:0" loading="lazy" allowfullscreen
+                <!-- <iframe width="100%" height="450" style="border:0" loading="lazy" allowfullscreen
                     referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCjmhO6oRp6r9UrwBUc87-Ix7-t00eGRaE
             &q=V835+H7H,+Gading,+Selopuro,+RT.03/RW.06,+Gading,+Kec.+Selopuro,+Kabupaten+Blitar,+Jawa+Timur+66184">
-                </iframe>
+                </iframe> -->
             </div>
             <footer id="footer" class="footer"></footer>
         </div>
     </div>
     <!-- /footer assets Js -->
     <script src="dist/js/jquery.min.js"></script>
-    <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg"></script>
-    <script type="text/javascript">
-        function initMap() {
 
-        }
-    </script>
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?libraries=places&language=id&key=AIzaSyCjmhO6oRp6r9UrwBUc87-Ix7-t00eGRaE&loading=async"></script>
+    <script src="dist/js/bootstrap.js"></script>
+    <script src="dist/js/components.js"></script>
 </body>
 
 </html>
