@@ -24,7 +24,7 @@
                 lat: -8.14534597667424,
                 lng: 112.305452
             },
-            zoom: 14,
+            zoom: 18,
             mapTypeControl: false,
             fullscreenControl: false,
             panControl: false,
@@ -41,6 +41,9 @@
 
         /** @type {JQuery<ELEMENT>} */
         $element
+
+        /** @type {string} */
+        #address = "V835+H7H, Gading, Selopuro, RT.03/RW.06, Gading, Kec. Selopuro, Kabupaten Blitar, Jawa Timur 66184";
 
         map;
         /**
@@ -76,6 +79,11 @@
                 }
             });
         }
+
+        #mapEvent() { }
+        #infoWIndow() { }
+
+        #setMarker() { }
 
         static validate() {
             return $(ELEMENT).length > 0 && typeof window['google'] === 'object';
