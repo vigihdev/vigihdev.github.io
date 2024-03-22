@@ -1,0 +1,11 @@
+name: push-vigihdev-gihub-io VIGIHDEV_GIHUB_IO
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        env:
+          VIGIHDEV_GIHUB_IO: true
