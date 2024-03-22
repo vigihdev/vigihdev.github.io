@@ -9380,34 +9380,6 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 900;
   src: url("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), local("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), url("../fonts/roboto/Roboto-Black-webfont.woff") format("woff"), url("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), local("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), local("../fonts/roboto/Roboto-Black-webfont.woff") format("woff"), url("../fonts/roboto/Roboto-Black-webfont.ttf") format("truetype"), url("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), local("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), url("../fonts/roboto/Roboto-Black-webfont.woff") format("woff"), url("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), local("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), local("../fonts/roboto/Roboto-Black-webfont.woff") format("woff"), local("../fonts/roboto/Roboto-Black-webfont.ttf") format("truetype"), url("../fonts/roboto/Roboto-Black-webfont.svg#Roboto_Black") format("svg"), url("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), local("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), url("../fonts/roboto/Roboto-Black-webfont.woff") format("woff"), url("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), local("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), local("../fonts/roboto/Roboto-Black-webfont.woff") format("woff"), url("../fonts/roboto/Roboto-Black-webfont.ttf") format("truetype"), url("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), local("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), url("../fonts/roboto/Roboto-Black-webfont.woff") format("woff"), url("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), local("../fonts/roboto/Roboto-Black-webfont.eot?") format("eot"), local("../fonts/roboto/Roboto-Black-webfont.woff") format("woff"), local("../fonts/roboto/Roboto-Black-webfont.ttf") format("truetype"), local("../fonts/roboto/Roboto-Black-webfont.svg#Roboto_Black") format("svg");
 }
-body {
-  display: block;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
-body.main-blank {
-  display: block;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  margin: 0 auto !important;
-  max-width: 768px;
-  width: 100%;
-}
-body.main-blank section {
-  display: block;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  margin: 0 auto !important;
-  max-width: 768px;
-  width: 100%;
-}
-
 .site-page .site-page-wrapper {
   border: 1px solid #5e5e5e;
   padding-top: 16px;
